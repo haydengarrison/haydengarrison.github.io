@@ -10,15 +10,75 @@
 
 nav {
     font-family: Futura, Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 25%;
+    top: 3em;
+    width: 95%;
+    color: white;
+    margin-top: 10px;
 }
- body { 
+
+.navItem {
+    color: white;
+    padding: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font: small-caps;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: .2em;
+}
+
+.navItem:hover {
+    color: rgb(202, 147, 65);
+    font-weight: bold; 
+}
+
+body { 
     background-color: rgb(63, 40, 29);
     color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 15px;
+    text-align: left;
+    padding-left: 10%;
     font-family: Futura, Arial, Helvetica, sans-serif;
     font-size: 100%;
-    font-stretch: extra-expanded;
+}
+
+bakerymenu {
+    align-content: right;
+    text-align: right;
+}
+article {
+    padding-top: 10%;
+}
+
+h1 {
+    color: rgb(202, 147, 65);
+    font-weight: bold; 
+    font-variant: small-caps; 
+    font-size: 130%;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(202, 147, 65);
+    font-weight: bold; 
+    font-variant: small-caps; 
+    font-size: 130%;
+    text-align: right;
+}
+
+aside {
+    margin-right: 10em;
+    padding-top: 2em;
+    float: left;
+    height: 190px;
+}
+
+aside2 {
+    margin-right: 10em;
+    padding-right: 5%;
+    padding-top: 20%;
+    float: right;
 }
 
 section {
@@ -26,34 +86,10 @@ section {
     padding-bottom: 80px;
 }
 
-img:hover {
-mix-blend-mode: luminosity;
-}
-
-section img {
-    padding: 10px;
-    margin: 0%;
-}
-
-section img:hover {
-    width:50%;
-    transition: 1.65s;
-    padding: 10px;
-    margin: 0%;
-}
-
 #MainArticle {
-    margin: 15px;
+    /*margin: 15px;*/
     padding: 10px;
     background-color: rgb(63, 40, 29);
-}
-
-aside {
-    margin-right: 10em;
-    float: right;
-    width: 10%;
-    height: 190px;
-    padding: .3em;
 }
 
 img {
@@ -65,37 +101,6 @@ img {
 #menuPlanner,span {
     float: right;
     margin: 0 10px 0 20px;
-}
-
-nav {
-    position: absolute;
-    right: 2em;
-    top: 3em;
-    width: 95%;
-    color: white;
-}
-
-.navItem {
-    color: white;
-    padding: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font: small-caps;
-    font-size: 1.1em;
-    font-weight: bolder;
-    text-decoration: none;
-    text-shadow: #006778;
-    margin: .2em;
-}
-
-.navItem:hover {
-    color: rgb(202, 147, 65);
-    font-weight: bold; 
-}
-
-h1 {
-    text-align: center;
-    font-size: 130%;
-    padding-left: 5%;
 }
 
 footer {
@@ -116,12 +121,6 @@ border-top: none;
 ul li {
     border: none;
     box-shadow: none;
-}
-
-p {
-    margin-right: 25em;
-    padding-top: 0.4%;
-    padding-bottom: 0.7%;
 }
 
 article a:visited {
@@ -148,25 +147,4 @@ article a:hover, article a:focus {
 
 .change_bullets {
     list-style-type: square;
-}
-
-#submenu a {
-    text-decoration: none;
-}
-
-#submenu {
-    list-style-type: none;
-    position: relative;
-    width: 100%;
-}
-
-#submenu li {
-    color: darkslateblue;
-    display: inline;
-    padding: 2.5em;
-    font-size: 200%;
-}
-
-#submenu a:hover, #submenu a:focus {
-    color: #7A7690;
 }
